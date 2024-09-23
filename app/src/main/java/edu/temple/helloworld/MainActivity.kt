@@ -20,9 +20,9 @@ class MainActivity : AppCompatActivity() {
 
         
         findViewById<Button>(R.id.clickMeButton).setOnClickListener {
-            if (findViewById<EditText>(R.id.nameEditText).text.isNotEmpty()) {
+
                 displayTextView.text = "Hello, ${findViewById<EditText>(R.id.nameEditText).text}"
-                }
+
         }
 
 
