@@ -8,7 +8,7 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
-    // Declare view properties - the first one is done for you
+
     lateinit var displayTextView: TextView
     lateinit var nameEditText: EditText
 
@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
             }
             else {
                 nameEditText.setError("Must enter a name")
+
             }
         }
 
